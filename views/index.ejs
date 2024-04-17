@@ -1,0 +1,32 @@
+<div class="author">
+  <h1 class="author__heading">Welcome to ZB blogs</h1>
+  <p class="author__body">Your Hub for Trending News and Entertainment</p>
+</div>
+
+<img src="/img/1343548-most-popular-black-and-white-newspaper-wallpaper-2560x1440-large-resolution.jpg" alt="newspaper" class="hero-image" width="981" height="528">
+
+<section class="articles">
+  <h2 class="articles__heading">Articles</h2>
+
+  <ul class="article-ul">
+    <% data.forEach(post => { %>
+      <li>
+        <a href="/post/<%= post._id %>">
+          <span><%= post.title %></span>
+          <span class="article-list__date"><%= post.createdAt.toDateString() %></span>
+        </a>
+      </li>
+    <% }) %>
+  </ul>
+
+
+  <% if (nextPage !== null) { %>
+    <a href="/?page=<%= nextPage %>" class="pagination">&lt; Old Articles</a>
+  <% } %>
+ 
+
+  
+
+
+
+</section>
