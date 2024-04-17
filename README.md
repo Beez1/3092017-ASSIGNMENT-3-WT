@@ -1,10 +1,9 @@
-# NodeJs, Express, EJS & MongoDB Blog - CRUD
+# NodeJs blog
 
-![alt text](/readme-image.jpg?raw=true)
 
 ## You need:
 - NodeJs
-- Database (MongoDB) Free Cluster
+- Database (MongoDB)
 
 ## Installation
 To install and run this project - install dependencies using npm and then start your server:

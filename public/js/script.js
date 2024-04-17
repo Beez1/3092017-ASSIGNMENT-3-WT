@@ -22,24 +22,3 @@ document.addEventListener('DOMContentLoaded', function(){
 
 
 });
-
-//youtube video 
-// Get all video containers
-const videoContainers = document.querySelectorAll('.video-container');
-
-// Add event listeners for mouse enter and leave
-videoContainers.forEach(container => {
-    container.addEventListener('mouseenter', () => {
-        // Get the video element inside the container
-        const video = container.querySelector('.video');
-        // Play the video on hover
-        video.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
-    });
-
-    container.addEventListener('mouseleave', () => {
-        // Get the video element inside the container
-        const video = container.querySelector('.video');
-        // Pause the video when mouse leaves
-        video.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
-    });
-});
