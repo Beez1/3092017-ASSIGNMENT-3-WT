@@ -164,12 +164,12 @@ function insertPostData () {
     {
       title: "Revolutionizing Transportation: Electric Vehicles Surge in Popularity as Governments Implement Green Initiatives",
       body: "The transportation industry undergoes a transformative shift as electric vehicles (EVs) surge in popularity, propelled by government incentives and environmental policies aimed at reducing carbon emissions. With advancements in battery technology and infrastructure development, EVs offer a cleaner and more sustainable alternative to traditional gasoline-powered vehicles. As consumers embrace the benefits of electric mobility, manufacturers ramp up production to meet growing demand, signaling a pivotal moment in the transition towards a greener and more eco-friendly transportation ecosystem.",
-      comment: "lovely post", // Comment: Added comment
+      comment: "lovely post", 
     },
     {
       title: "Innovations in Healthcare: Gene Editing Technology Holds Promise for Treating Genetic Disorders",
       body: "Breakthroughs in gene editing technology usher in a new era of personalized medicine, offering hope to millions of individuals affected by genetic disorders. With tools such as CRISPR-Cas9 enabling precise modifications to the human genome, scientists explore innovative approaches to treating inherited diseases and genetic conditions. From correcting faulty genes to developing targeted therapies, gene editing holds immense potential for revolutionizing healthcare and improving patient outcomes, marking a significant milestone in the quest to conquer genetic diseases.",
-      comment: "lovely post", // Comment: Added comment
+      comment: "lovely post", 
     },
     {
       title: "Sustainable Agriculture: Farmers Embrace Regenerative Practices to Combat Climate Change",

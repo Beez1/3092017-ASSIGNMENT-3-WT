@@ -12,6 +12,15 @@
   --border-radius: 10px;
 }
 
+.header__logo {
+  margin-right: 10px;
+}
+
+.header__logo img {
+  width: 50px; /* Adjust the width of the logo as needed */
+  height: auto;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   color: var(--black);
